@@ -11,7 +11,7 @@ const Header = () => {
             <h4 className='text-lg font-semibold'>CRAPPO</h4>
         </div>
         {/* <button className='absolute top-10 right-10 w-20 h-20'><img src={Ham} className='w-full h-full' alt="" /></button> */}
-        <nav className='fixed right-0 hidden top-0 w-3/4 md:w-fit justify-center items-center h-full bg-[#0D0D2B] gap-y-16 ms-auto flex-col md:relative md:flex-row flex gap-x-8 md:gap-x-10 md:gap-y-0 items-center ml-auto'>
+        <nav className='fixed right-0 hidden top-0 w-3/4 md:w-fit justify-center items-center h-full bg-[#0D0D2B] gap-y-16 ms-auto flex-col md:relative md:flex-row md:flex gap-x-8 md:gap-x-10 md:gap-y-0 items-center ml-auto'>
             <div className='flex-col flex gap-y-10 md:flex-row md:gap-y-0 gap-x-6 md:gap-x-10 md:text-start text-center'>
                 <a href="/" className='text-2xl md:text-base hover:font-bold hover:text-[#3671E9]'>Products</a>
                 <a href="/" className='text-2xl md:text-base hover:font-bold hover:text-[#3671E9]'>Features</a>
