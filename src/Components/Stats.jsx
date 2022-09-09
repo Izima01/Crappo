@@ -19,6 +19,7 @@ const Stats = ({ Img, Bold, Text, timer=50, end, Sign }) => {
     let isMounted = true;
     isMounted && updateCounter();
     return () => isMounted = false;
+    // eslint-disable-next-line
   }, [end]);
 
   return (
