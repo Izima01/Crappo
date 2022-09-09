@@ -11,7 +11,7 @@ import Linkedin from '../Assets/linkedin 1.svg';
 
 const Footer = () => {
   return (
-    <section className='py-16 px-20 xl:px-16 lg:px-10 md:px-6 bg-[#0D0D2B]'>
+    <section className='py-16 px-10 xl:px-16 lg:px-10 md:px-6 bg-[#0D0D2B]'>
         <div className="md:flex-row flex-col flex items-start w-full justify-between gap-y-8 md:gap-y-0">
             <div className='lg:flex md:block flex logo items-center gap-4 xl:mr-40 w-full md:w-[10%] lg:w-[20%] xl:w-[10%]'>
                 <img src={Logo} alt="logo" width="40px" height="40px" />

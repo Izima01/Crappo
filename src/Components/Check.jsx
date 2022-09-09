@@ -8,7 +8,7 @@ const Check = () => {
         <h2 className='text-4xl font-extrabold mb-6'>Check how much you can earn</h2>
         <p className='text-normal text-[#E0E0E0] font-normal sm:mx-20 md:mx-32 lg:mx-72 pb-52 sm:pb-44'>Let’s check your hash rate to see how much you will earn today, Exercitation veniam consequat sunt nostrud amet.</p>
 
-        <div className='calcuator absolute top-44 sm:top-36 left-1/2 rounded-2xl -translate-x-1/2 w-11/12 xl:w-3/4 md:w-10/12 bg-white px-8 py-12 md:p-12' style={{ boxShadow:'0 20px 200px rgba(57, 23, 119, 0.1)' }}>
+        <div className='calcuator absolute top-44 sm:top-36 left-1/2 rounded-2xl -translate-x-1/2 w-11/12 xl:w-3/4 md:w-10/12 bg-white px-4 py-12 md:p-12' style={{ boxShadow:'0 20px 200px rgba(57, 23, 119, 0.1)' }}>
             <div className="flex gap-6 md:gap-10 bg-white mb-16">
                 <input
                     type="text"
@@ -26,7 +26,7 @@ const Check = () => {
                     <option value="gh/s" className='bg-white'>GH/s</option>
                 </select>
 
-                <Button Text="Calculate" height="3.4rem" padding="0px 25px" />
+                <Button Text="Calculate" height="3.4rem" padding="0px 15px" />
             </div>
             <div className='bg-white text-start'>
                 <p className='text-[#3671E9] bg-inherit font-semibold mb-4'>ESTIMATED 24 HOUR REVENUE:</p>

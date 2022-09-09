@@ -13,7 +13,7 @@ const Crypto = ({ Img, Name, Symbol, Text }) => {
         <p className='text-black mb-6 group-focus:text-white md:group-hover:text-white'>
             {Text}
         </p>
-        <div className='hidden group-focus:block md:group-hover:block'>
+        <div className='hidden group-hover:block md:group-focus:block'>
             <ArrowButton Text="Start Mining" />
         </div>
         <button className='md:group-hover:hidden group-focus:hidden'>
