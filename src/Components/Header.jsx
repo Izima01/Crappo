@@ -5,14 +5,12 @@ import Cancel from '../Assets/icons8-x-50.png';
 import Button from './Button';
 
 const Header = () => {
-    const menu = document.querySelector("nav");
+  const menu = document.querySelector("nav");
   const showMenu = () => {
-    console.log("clicked");
     menu.classList.remove("translate-x-full");
     menu.classList.add("translate-x-0");
   }
   const HideMenu = () => {
-    console.log("Hidden");
     menu.classList.add("translate-x-full");
     menu.classList.remove("translate-x-0");
   }
@@ -22,9 +20,9 @@ const Header = () => {
           <img src={Logo} alt="logo" width="40px" height="40px" />
           <h4 className='text-lg font-semibold'>CRAPPO</h4>
         </div>
-        <button className='absolute top-16 right-4 md:right-10 w-10 h-10 md:hidden' onClick={showMenu}><img src={Ham} className='w-full h-full fill-current' alt="" /></button>
-        <nav className='fixed translate-x-full md:translate-x-0 transition-transform pt-32 md:pt-0 right-0 top-0 w-full md:w-fit h-full bg-[#0D0D2B] gap-y-16 ms-auto flex-col md:relative md:flex-row flex gap-x-8 md:gap-x-10 md:gap-y-0 items-center '>
-          <button className='absolute top-16 right-4 md:right-10 w-8 h-8 md:hidden' onClick={HideMenu}><img src={Cancel} className='w-full h-full fill-current' alt="" /></button>
+        <button className='absolute top-16 right-6 md:right-10 w-10 h-10 md:hidden' onClick={showMenu}><img src={Ham} className='w-full h-full fill-current' alt="" /></button>
+        <nav className='fixed translate-x-full md:translate-x-0 transition-transform pt-32 md:pt-0 right-0 top-0 w-full md:w-fit h-full bg-[#0D0D2B] gap-y-16 ms-auto flex-col md:relative md:flex-row flex gap-x-8 md:gap-x-10 md:gap-y-0 items-center' style={{zIndex:100}}>
+          <button className='absolute top-16 right-6 md:right-10 w-8 h-8 md:hidden' onClick={HideMenu}><img src={Cancel} className='w-full h-full fill-current' alt="" /></button>
           <div className='flex-col flex gap-y-10 md:flex-row md:gap-y-0 gap-x-6 md:gap-x-10 md:text-start text-center'>
               <a href="/" className='text-2xl md:text-base hover:font-bold hover:text-[#3671E9]'>Products</a>
               <a href="/" className='text-2xl md:text-base hover:font-bold hover:text-[#3671E9]'>Features</a>
