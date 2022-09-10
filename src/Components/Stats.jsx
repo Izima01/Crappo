@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 
-const Stats = ({ Img, Bold, Text, timer=50, end, Sign }) => {
+const Stats = ({ Img, Bold, Text, timer=50, end, Sign, duration }) => {
   const ref = useRef(0);
   let [count, setCount] = useState(null);
 
@@ -23,7 +23,7 @@ const Stats = ({ Img, Bold, Text, timer=50, end, Sign }) => {
   }, [end]);
 
   return (
-    <article className='md:flex-row sm:flex-col flex gap-12 sm:gap-6 items-start'>
+    <article className='md:flex-row sm:flex-col flex gap-12 sm:gap-6 items-start' data-aos="fade-up" data-aos-duration={duration}>
         <img src={Img} alt="" className='' width="80px" height="80px" />
         <div>
             <h2 className='text-[2.5rem] leading-normal font-bold pb-1'>

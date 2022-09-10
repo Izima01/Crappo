@@ -7,9 +7,9 @@ import Table from '../Assets/Table.png';
 const Market = () => {
   return (
     <div className='bg-[#2B076E] py-24'>
-        <h2 className='text-center text-[2.5rem] font-bold px-8 sm:px-12 md:px-20 xl:px-40 mb-24'>Market sentiments, portfolio, and run the infrastructure of your choice</h2>
+        <h2 data-aos="zoom-in" className='text-center text-[2.5rem] font-bold px-8 sm:px-12 md:px-20 xl:px-40 mb-24'>Market sentiments, portfolio, and run the infrastructure of your choice</h2>
         <Feature
-          margin='0 6%'
+          margin='0 5%'
           imgH='26rem'
           heading='Invest Smart'
           content='Get full statistic information about the behaviour of buyers and sellers will help you to make the decision.'
@@ -30,8 +30,8 @@ const Market = () => {
         />
 
         <Feature
-          margin='0 2rem'
-          imgH='20.75rem'
+          margin='0 1.5rem'
+          imgH='18rem'
           heading='Grow your profit and track your investments'
           content='Use advanced analytical tools. Clear TradingView charts let you track current and historical profit investments.'
           // gap='2rem'

@@ -42,7 +42,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className='flex md:flex-row flex-col gap-y-8 md:gap-y-0D0D2B justify-between mt-20 w-11/12'>
+        <div className='flex sm:flex-row flex-col gap-y-8 md:gap-y-0D0D2B justify-between mt-16 w-11/12'>
             <h4 className=''>©2021 CRAPPO. All rights reserved</h4>
             <div className='socials flex gap-6'>
                 <a href="/"><img src={FB} alt="" /></a>
