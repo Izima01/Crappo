@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 
-const Stats = ({ Img, Bold, Text, timer=50, end, Sign, duration }) => {
+const Stats = ({ Img, Bold, Text, timer=30, end, Sign, duration }) => {
   const ref = useRef(0);
   let [count, setCount] = useState(null);
 
